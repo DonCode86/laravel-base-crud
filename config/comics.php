@@ -5,10 +5,10 @@ return [
         "title" => "Action Comics #1000: The Deluxe Edition",
         "description" => "The celebration of 1,000 issues of Action Comics continues with a new, Deluxe Edition of the amazing comic that won raves when it hit comics shops in April! This hardcover includes all the stories from that issue, plus the tale by writer Paul Levitz and artist Neal Adams that appeared in the Action Comics: 80 Years Of Superman hardcover, as well as all the variant covers, design sketches by Jim Lee for Superman’s new look, scripts for the stories, the original art from the lost story featuring art by Curt Swan and more! Plus: a complete reprint of the stories that started it all—the Superman stories Action Comics #1 and 2 from 1938!",
         "thumb" => "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX",
-        "price" => "19.99",
+        "price" => "9.99",
         "series" => "Action Comics",
         "sale_date" => "2018-10-02",
-        "type" => "comic book", 
+        "type" => "comic book"
     ],
     [
         "title" => "American Vampire 1976 #1",
@@ -17,7 +17,7 @@ return [
         "price" => "3.99",
         "series" => "American Vampire 1976",
         "sale_date" => "2020-10-06",
-        "type" => "comic book", 
+        "type" => "comic book"
     ],
     [
         "title" => "Aquaman Vol. 4: Underworld",
@@ -26,7 +26,7 @@ return [
         "price" => "16.99",
         "series" => "Aquaman",
         "sale_date" => "2018-01-24",
-        "type" => "graphic novel", 
+        "type" => "graphic novel"
     ],
     [
         "title" => "Batgirl #1",
@@ -35,7 +35,7 @@ return [
         "price" => "2.99",
         "series" => "Batgirl",
         "sale_date" => "2016-07-27",
-        "type" => "comic book",      
+        "type" => "comic book"
     ],
     [
         "title" => "Batman #56",
@@ -44,7 +44,7 @@ return [
         "price" => "3.99",
         "series" => "Batman",
         "sale_date" => "2018-10-03",
-        "type" => "comic book",
+        "type" => "comic book"
     ],
     [
         "title" => "Batman Beyond #1",
@@ -53,8 +53,7 @@ return [
         "price" => "2.99",
         "series" => "Batman Beyond",
         "sale_date" => "2016-10-26",
-        "type" => "comic book",
-        
+        "type" => "comic book"
     ],
     [
         "title" => "Batman/Superman #1",
@@ -63,7 +62,7 @@ return [
         "price" => "3.99",
         "series" => "Batman/Superman",
         "sale_date" => "2019-08-28",
-        "type" => "comic book",
+        "type" => "comic book"
     ],
     [
         "title" => "Batman/Superman Annual #1",
@@ -72,7 +71,7 @@ return [
         "price" => "4.99",
         "series" => "Batman/Superman Annual",
         "sale_date" => "2020-09-29",
-        "type" => "comic book",
+        "type" => "comic book"
     ],
     [
         "title" => "Batman: The Joker War Zone #1",
@@ -81,7 +80,7 @@ return [
         "price" => "5.99",
         "series" => "Batman: The Joker War Zone",
         "sale_date" => "2020-09-29",
-        "type" => "comic book",  
+        "type" => "comic book"
     ],
     [
         "title" => "Batman: Three Jokers #1",
@@ -90,7 +89,7 @@ return [
         "price" => "6.99",
         "series" => "Batman: Three Jokers",
         "sale_date" => "2020-08-25",
-        "type" => "comic book",
+        "type" => "comic book"
     ],
     [
         "title" => "Batman: White Knight Presents: Harley Quinn #1",
@@ -99,7 +98,7 @@ return [
         "price" => "4.99",
         "series" => "Batman: White Knight Presents: Harley Quinn",
         "sale_date" => "2020-10-20",
-        "type" => "comic book",      
+        "type" => "comic book"
     ],
     [
         "title" => "Catwoman Vol. 1: Copycats",
@@ -108,6 +107,6 @@ return [
         "price" => "16.99",
         "series" => "Catwoman",
         "sale_date" => "2019-04-10",
-        "type" => "graphic novel",
+        "type" => "graphic novel"
     ],
 ];
