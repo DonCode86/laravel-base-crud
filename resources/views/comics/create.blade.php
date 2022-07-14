@@ -9,6 +9,11 @@
 <form action="{{route('comics.store')}}" method="POST">
   @csrf
 
+  <div class="mb-4">
+    <label for="image" class="form-label">Inserisci l'url dell'imagine</label>
+    <input type="text" class="form-control" id="image" name="thumb">
+  </div>
+  
   <div class="mb-3">
     <label for="titolo" class="form-label">Titolo</label>
     <input type="text" class="form-control" id="titolo" name="title">
@@ -38,10 +43,6 @@
     <input type="text" class="form-control" id="sale_date" name="sale_date">
   </div>
 
-  <div class="mb-4">
-    <label for="image" class="form-label">Inserisci l'url dell'imagine</label>
-    <input type="text" class="form-control" id="image" name="thumb">
-  </div>
 
   <div class="form-floating mb-3">
     <textarea class="form-control" placeholder="Fai una descrizione del fumetto" id="description" name="description"></textarea>
