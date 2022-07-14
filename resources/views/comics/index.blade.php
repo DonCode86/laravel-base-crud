@@ -5,7 +5,9 @@
 @endsection
 
 @section('page-content')
+
   <h1 class="text-center my-4">FUMETTI</h1>
+  <a class="btn btn-outline-dark" href="{{route('comics.create')}}">Crea un nuovo fumetto</a>
   <table class="table table-striped">
   <thead>
     <tr>
@@ -26,7 +28,7 @@
           <td>{{$comic->price}}</td>
           <td>{{$comic->sale_date}}</td>
           <td>
-            <a class="btn btn-outline-dark" href="{{route('comics.show', $comic->id)}}">More Info</button>
+            <a class="btn btn-outline-dark" href="{{route('comics.show', $comic->id)}}">More Info</a>
           </td>
         </tr>
       @endforeach
