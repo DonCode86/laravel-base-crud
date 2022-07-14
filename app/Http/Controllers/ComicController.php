@@ -37,7 +37,22 @@ class ComicController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //recupero i dati del form
+        $data = $request->all();
+        //creo oggetto Comic
+        $newComic = new Comic();
+            //tutte le proprieta'
+            $newComic->title = $data['title'];
+            $newComic->description =$data['description'];
+            $newComic->thumb =$data['thumb'];
+            $newComic->price =$data['price'];
+            $newComic->series =$data['series'];
+            $newComic->sale_date =$data['sale_date'];
+            $newComic->type =$data['type'];
+            //nuovo record
+            $newComic->save();
+            //reindirizziamo alla pagina del fumetto appena creato
+            return redirect()->route('comics.show', $newComic->id);
     }
 
     /**

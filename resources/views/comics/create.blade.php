@@ -6,7 +6,9 @@
 
 @section('page-content')
   <h1>Crea un nuovo fumetto</h1>
-<form>
+<form action="{{route('comics.store')}}" method="POST">
+  @csrf
+  
   <div class="mb-3">
     <label for="titolo" class="form-label">Titolo</label>
     <input type="text" class="form-control" id="titolo" name="title">
