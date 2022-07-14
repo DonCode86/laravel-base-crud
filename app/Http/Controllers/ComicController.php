@@ -46,9 +46,10 @@ class ComicController extends Controller
             $newComic->description =$data['description'];
             $newComic->thumb =$data['thumb'];
             $newComic->price =$data['price'];
+            $newComic->type =$data['type'];
             $newComic->series =$data['series'];
             $newComic->sale_date =$data['sale_date'];
-            $newComic->type =$data['type'];
+
             //nuovo record
             $newComic->save();
             //reindirizziamo alla pagina del fumetto appena creato
