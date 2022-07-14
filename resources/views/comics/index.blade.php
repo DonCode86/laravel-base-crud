@@ -7,7 +7,7 @@
 @section('page-content')
 
   <h1 class="text-center my-4">FUMETTI</h1>
-  <a class="btn btn-outline-dark" href="{{route('comics.create')}}">Crea un nuovo fumetto</a>
+  <a class="btn btn-outline-dark float-end mb-3" href="{{route('comics.create')}}">Crea un nuovo fumetto</a>
   <table class="table table-striped">
   <thead>
     <tr>
