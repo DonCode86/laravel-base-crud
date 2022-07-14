@@ -5,6 +5,7 @@
 @endsection
 
 @section('page-content')
+<a class="btn btn-outline-dark" href="{{route('comics.index')}}">Torna alla Home</a>
   <h1>Crea un nuovo fumetto</h1>
 <form action="{{route('comics.store')}}" method="POST">
   @csrf
@@ -13,7 +14,7 @@
     <label for="image" class="form-label">Inserisci l'url dell'imagine</label>
     <input type="text" class="form-control" id="image" name="thumb">
   </div>
-  
+
   <div class="mb-3">
     <label for="titolo" class="form-label">Titolo</label>
     <input type="text" class="form-control" id="titolo" name="title">
