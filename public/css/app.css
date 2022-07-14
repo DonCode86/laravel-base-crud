@@ -12149,3 +12149,24 @@ fieldset:disabled .btn {
   }
 }
 
+.show-section {
+  margin: 50px 0;
+  background-color: rgba(211, 211, 211, 0.398);
+  padding: 20px;
+}
+
+.show-section .btn {
+  text-align: end;
+}
+
+.show-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.show-section h1,
+.show-section .h1 {
+  color: red;
+}
+
