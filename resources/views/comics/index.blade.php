@@ -19,13 +19,15 @@
   </thead>
   <tbody>
       @foreach ($comics as $comic)
-        <tr>
+        <tr class="align-middle">
           <td>{{$comic->id}}</td>
           <td><img src="{{$comic->thumb}}"></td>
           <td>{{$comic->title}}</td>
           <td>{{$comic->price}}</td>
           <td>{{$comic->sale_date}}</td>
-          <td></td>
+          <td>
+            <a class="btn btn-outline-dark">Primary</button>
+          </td>
         </tr>
       @endforeach
   </tbody>
