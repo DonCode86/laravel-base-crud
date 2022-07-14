@@ -1,11 +1,11 @@
 @extends('layouts.base')
 
 @section('page-title')
-  Tutti i fumetti
+  Lista fumetti
 @endsection
 
 @section('page-content')
-  <h1>Tutti i fumetti</h1>
+  <h1 class="text-center my-4">FUMETTI</h1>
   <table class="table table-striped">
   <thead>
     <tr>
