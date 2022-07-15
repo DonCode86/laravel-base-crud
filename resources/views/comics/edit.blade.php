@@ -1,12 +1,12 @@
 @extends('layouts.base')
 
 @section('page-title')
-  Modifica {{'comic.title'}}
+  Modifica {{$comic->title}}
 @endsection
 
 @section('page-content')
 <a class="btn btn-outline-dark my-4" href="{{route('comics.index')}}">Torna alla Home</a>
-  <h1>Crea un nuovo fumetto</h1>
+  <h1>Modifica fumetto</h1>
 <form  action="{{route('comics.update', $comic->id)}}" method="POST">
   @method('PUT')
   @csrf

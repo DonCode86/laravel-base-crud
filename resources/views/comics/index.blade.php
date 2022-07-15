@@ -29,7 +29,7 @@
           <td>{{$comic->sale_date}}</td>
           <td>
             <a class="btn btn-outline-dark d-block mb-4" href="{{route('comics.show', $comic->id)}}">Info</a>
-            <a class="btn btn-outline-danger d-block" href="{{route('comics.update', $comic->id)}}">Modifica</a>
+            <a class="btn btn-outline-danger d-block" href="{{route('comics.edit', $comic->id)}}">Modifica</a>
           </td>
         </tr>
       @endforeach
