@@ -26,8 +26,8 @@
     <label for="tipo" class="form-label">Genere del fumetto</label>
     <select class="form-select" id="tipo" name="type" value="{{$comic->type}}">
       <option selected>scegli il genere del fumetto</option>
-      <option value="1">comic book</option>
-      <option value="2">graphic novel</option>
+      <option value="1" {{$comic->type == 'comic book' ? 'selected' : ''}}>comic book</option>
+      <option value="2" {{$comic->type == 'graphic novel' ? 'selected' : ''}}>graphic novel</option>
     </select>
   </div>
 
