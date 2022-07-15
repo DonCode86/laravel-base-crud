@@ -10,7 +10,7 @@
   <a class="btn btn-outline-dark float-end mb-3" href="{{route('comics.create')}}">Crea un nuovo fumetto</a>
   <table class="table table-striped">
   <thead>
-    <tr>
+    <tr class="text-center">
       <th scope="col">ID</th>
       <th scope="col">Immagine</th>
       <th scope="col">Titolo</th>
@@ -19,7 +19,7 @@
       <th scope="col">Azioni</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody class="text-center">
       @foreach ($comics as $comic)
         <tr class="align-middle">
           <td>{{$comic->id}}</td>
@@ -28,7 +28,8 @@
           <td>{{$comic->price}}</td>
           <td>{{$comic->sale_date}}</td>
           <td>
-            <a class="btn btn-outline-dark" href="{{route('comics.show', $comic->id)}}">More Info</a>
+            <a class="btn btn-outline-dark d-block mb-4" href="{{route('comics.show', $comic->id)}}">Info</a>
+            <a class="btn btn-outline-danger d-block" href="{{route('comics.update', $comic->id)}}">Modifica</a>
           </td>
         </tr>
       @endforeach
